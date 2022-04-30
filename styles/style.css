@@ -1,0 +1,13 @@
+body {
+    background-color: #008cff;
+}
+
+
+
+.wrapper {
+    background-color: #f3f3f3;
+    border: 0.8px solid black;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    padding: 20px;
+}
