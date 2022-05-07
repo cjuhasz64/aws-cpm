@@ -1,6 +1,8 @@
 Table users {
   id int [pk, increment] // auto-increment
   full_name varchar
+  phone int
+  email varchar
   created_at timestamp
 }
 
