@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS `myTable`;
 
-CREATE TABLE `myTable` (
+CREATE TABLE `user` (
   `id` mediumint(8) unsigned NOT NULL auto_increment,
   `name` varchar(255) default NULL,
   `email` varchar(255) default NULL,
@@ -8,7 +8,7 @@ CREATE TABLE `myTable` (
   PRIMARY KEY (`id`)
 ) AUTO_INCREMENT=1;
 
-INSERT INTO `myTable` (`name`,`email`,`phone`)
+INSERT INTO `users` (`name`,`email`,`phone`)
 VALUES
   ("Basia Hammond","diam.dictum.sapien@protonmail.org","(07) 0500 4127"),
   ("Brenna Sandoval","pellentesque.massa@outlook.ca","(07) 5052 0325"),
@@ -20,7 +20,7 @@ VALUES
   ("Benedict Dodson","natoque@protonmail.com","(09) 9874 5438"),
   ("Solomon Roy","lobortis.class@icloud.edu","(07) 2105 7077"),
   ("Neville Alston","at@yahoo.org","(06) 4425 7924");
-INSERT INTO `myTable` (`name`,`email`,`phone`)
+INSERT INTO `users` (`name`,`email`,`phone`)
 VALUES
   ("Delilah Douglas","arcu@google.couk","(08) 2672 8824"),
   ("Hanna Perry","nam.porttitor@outlook.net","(07) 5156 8802"),
@@ -32,7 +32,7 @@ VALUES
   ("Kay Spears","urna@yahoo.ca","(09) 6413 3631"),
   ("Damian Johnson","bibendum@icloud.couk","(03) 3666 5815"),
   ("Griffith Cooper","luctus.lobortis@outlook.ca","(04) 4449 5236");
-INSERT INTO `myTable` (`name`,`email`,`phone`)
+INSERT INTO `users` (`name`,`email`,`phone`)
 VALUES
   ("Finn Gillespie","semper.dui@google.ca","(01) 3594 7447"),
   ("Rosalyn Blankenship","donec@aol.net","(03) 3465 5538"),
@@ -44,7 +44,7 @@ VALUES
   ("Cleo Jennings","aenean.sed@protonmail.org","(06) 3342 2091"),
   ("Nora Benson","euismod.mauris.eu@outlook.com","(09) 8637 2932"),
   ("Raja Kramer","tempor.diam@icloud.ca","(08) 3162 4415");
-INSERT INTO `myTable` (`name`,`email`,`phone`)
+INSERT INTO `users` (`name`,`email`,`phone`)
 VALUES
   ("Lavinia Patterson","arcu.curabitur@yahoo.com","(06) 8277 1348"),
   ("Miranda Riddle","ante.iaculis.nec@icloud.couk","(06) 3207 6750"),
@@ -56,7 +56,7 @@ VALUES
   ("Callum Hooper","donec@google.net","(02) 7218 5956"),
   ("Haviva Wolf","dictum.sapien@google.net","(05) 8955 9821"),
   ("Yuli Leonard","vitae.aliquam.eros@protonmail.org","(02) 4590 4770");
-INSERT INTO `myTable` (`name`,`email`,`phone`)
+INSERT INTO `users` (`name`,`email`,`phone`)
 VALUES
   ("Hilel Bond","lorem.ipsum.dolor@aol.couk","(01) 1581 8372"),
   ("Ross Graves","eu.metus.in@hotmail.org","(09) 5131 2366"),
