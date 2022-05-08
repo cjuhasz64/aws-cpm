@@ -42,6 +42,9 @@
         // Close connection
         mysqli_close($conn);
         ?>
+      
+        <div id="center_button"><button onclick="location.href='add_customer.php'">Add Another User</button></div>
+
     </center>
 </body>
   
