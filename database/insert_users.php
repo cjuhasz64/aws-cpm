@@ -12,7 +12,7 @@
         // servername => localhost
         // username => root
         // password => empty
-        // database name => staff
+        // database name => user
         $conn = mysqli_connect("localhost", "root", "", "aws_cpm");
           
         // Check connection
