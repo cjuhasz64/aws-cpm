@@ -21,13 +21,10 @@
                 . mysqli_connect_error());
         }
           
-        // Taking all 5 values from the form data(input)
         $name =  $_REQUEST['name'];
         $phone = $_REQUEST['phone'];
         $email =  $_REQUEST['email'];
           
-        // Performing insert query execution
-        // here our table name is college
         $sql = "INSERT INTO users  VALUES ('$name', 
             '$phone','$email')";
           
