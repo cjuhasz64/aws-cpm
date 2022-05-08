@@ -25,9 +25,8 @@
         $phone = $_REQUEST['phone'];
         $email =  $_REQUEST['email'];
           
-        $sql = "INSERT INTO users  VALUES ('$name', 
-            '$phone','$email')";
-          
+        $sql = "INSERT INTO users (name, phone, email) VALUES ('$name','$phone','$email')";
+      
         if(mysqli_query($conn, $sql)){
             echo "<h3>User have been successfully added to database." 
                 . " Check database</h3>"; 
