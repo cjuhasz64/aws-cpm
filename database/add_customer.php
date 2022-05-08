@@ -9,7 +9,7 @@
     <center>
         <h1>Testing page for adding customer to database</h1>
   
-        <form action="insert.php" method="post">
+        <form action="insert_users.php" method="post">
           
           <p>
             <label for="Name">Full Name:</label>
