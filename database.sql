@@ -36,7 +36,7 @@ Table realestate {
 Table cash {
   id int
   user_id int
-  value varchar
+  value float
 }
 
 Ref: "users"."id" < "stocks"."user_id"
