@@ -13,7 +13,7 @@
           
           <p>
             <label for="Name">Full Name:</label>
-            <input type="text" name="name" id="Name">
+            <input type="text" name="name" id="name">
           </p>
           
           <p>
@@ -26,7 +26,7 @@
             <input type="text" name="email" id="email">
           </p>
           
-         <input type="submit" value="Submit">
+         <input type="submit" value="submit">
       
        </form>
     </center>
