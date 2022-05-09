@@ -1,5 +1,5 @@
 body {
-    background-color: #08ccff;
+    background-color: #008cff;
     font-family: 'Open Sans';
     
 }
@@ -9,15 +9,24 @@ body {
     border: 0.8px solid black;
     border-radius: 10px;
     font-family: 'Open Sans';
-    
+    font-size: 1.2em;
     padding: 20px;
 }
 
-textarea {
+input { 
     resize: none;
     height: 30px;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 100%;
+    border: black solid 0.2px;
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+input:focus {
+    outline: none;
+
 }
 
 button {
@@ -25,22 +34,21 @@ button {
     color: white;
     height: 30px;
     border-radius: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
     border: none;
-    font-size: 15px;
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: 30px;
     
+}
+
+.heading {
+    font-family: 'Open Sans';
 }
 
 .subheading {
     font-family: 'Open Sans';
-    
+    font-weight: 300;
 }
 
-
-#wrapper-login {
-    margin-left: 35%;
-    margin-right: 35%;
-    padding: 60px;
-}
 
