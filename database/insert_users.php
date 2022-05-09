@@ -43,6 +43,7 @@
         ?>
       
         <div id="center_button"><button onclick="location.href='add_customer.php'">Add Another User</button></div>
+        <div id="center_button"><button onclick="location.href='display_users.php'">Show All Users</button></div>
 
     </center>
 </body>
