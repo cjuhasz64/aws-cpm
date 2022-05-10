@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>GFG- Store Data</title>
+    <title>Users Data</title>
 </head>
 
 <body>
