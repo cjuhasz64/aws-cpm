@@ -2,7 +2,7 @@
 <html>
   
 <head>
-    <title>Insert Page</title>
+    <title>Insert User to Database</title>
 </head>
   
 <body>
@@ -12,7 +12,7 @@
         // servername => localhost
         // username => root
         // password => empty
-        // database name => user
+        // database name => users
         $conn = mysqli_connect("localhost", "root", "", "aws_cpm");
           
         // Check connection
@@ -26,7 +26,7 @@
         $email =  $_REQUEST['email'];
           
         $sql = "INSERT INTO users (name, phone, email) VALUES ('$name','$phone','$email')";
-      
+          
         if(mysqli_query($conn, $sql)){
             echo "<h3>User have been successfully added to database." 
                 . " Check database</h3>"; 

@@ -2,6 +2,8 @@
 <html>
 <body>
 
+<center><h1>All Users Recorded in Database</h1></center>
+
 <?php
 $servername = "localhost";
 $username = "root";
@@ -27,6 +29,33 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
+
+<center><h1>Edit Existing User</h1></center>
+
+<form action="update_users.php" method="post">
+<p>
+	<label for="ID">User ID:</label>
+	<input type="text" name="id" id="id">
+</p>
+
+<p>
+	<label for="Name">Full Name:</label>
+	<input type="text" name="name" id="name">
+</p>
+
+<p>
+	<label for="Phone">Phone:</label>
+	<input type="text" name="phone" id="phone">
+</p>
+                   
+<p>
+	<label for="email">Email Address:</label>
+	<input type="text" name="email" id="email">
+</p>
+          
+<input type="submit" value="Update">
+      
+</form>
 
 </body>
 </html>
