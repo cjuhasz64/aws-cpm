@@ -6,7 +6,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "users";
+$dbname = "aws_cpm";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
