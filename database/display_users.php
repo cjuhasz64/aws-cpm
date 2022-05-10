@@ -4,9 +4,9 @@
 
 <?php
 $servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "users";
+$username = "root";
+$password = "";
+$dbname = "aws_cpm";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
