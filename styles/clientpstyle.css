@@ -1,0 +1,241 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #08ccff;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #08ccff;
+    font-family: Arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+/* Links inside the navbar */
+.navbar ul li a {
+    float: left;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar ul #navRight {
+    float: right;
+}
+
+/* The dropdown container */
+.navbar ul li .dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.navbar ul li .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 30px;
+    background-color: inherit;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar ul li .dropdown .dropbtn i {
+    font-size: 20px;
+    color: black;
+}
+
+/* Add a blue background color to navbar links on hover */
+.navbar a:hover,
+.navbar ul li .dropdown:hover .dropbtn {
+    background-color: rgb(0, 149, 255);
+}
+
+/* Dropdown content (hidden by default) */
+.navbar ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.navbar ul li .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Artical*/
+section article h1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+/*line*/
+.vl {
+    border-right: 2px solid black;
+    height: 60px;
+    position: relative;
+    margin: 10px 10px 0px 0px;
+    margin-right: 0px;
+
+}
+
+#content h1 {
+    background-color: #08ccff;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#user {
+    background-color: lightgray;
+    width: 500px;
+    height: 200px;
+    border-radius: 12px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#user .dot {
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#user h1 {
+    text-align: center;
+    font-size: 30px;
+    background-color: lightgray;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+#user a {
+    margin-left: 200px;
+    position: relative;
+    color: blue;
+    display: inline-block;
+    width: 200px;
+}
+
+#riskp {
+    background-color: lightgray;
+    width: 500px;
+    height: 350px;
+    border-radius: 12px;
+    margin-left: 100px;
+    float: left;
+}
+
+#riskp h1 {
+    text-align: center;
+    font-size: 30px;
+    background-color: lightgray;
+    padding: 50px;
+
+}
+
+#surveyButton {
+    border: none;
+    background-color: #08ccff;
+    margin-left: 45px;
+    padding: 15px 32px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+#surveyButton a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#investmentp {
+    background-color: lightgray;
+    width: 850px;
+    height: 600px;
+    border-radius: 12px;
+    float: right;
+    margin-right: 100px;
+}
+
+#investmentp h1 {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 30px;
+    padding: 30px
+}
+
+#investmentp label{
+    font-family: sans-serif;
+    margin-left: 80px;
+}
+
+#investmentp label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+#investmentp select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+#investmentp button{
+    border: none;
+    background-color: #08ccff;
+    margin-left: 90px;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+#investmentp button a {
+    color: white;
+    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+}

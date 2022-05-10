@@ -51,6 +51,12 @@ button {
     border: none;
     font-size: 18px;
 }
+button a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #008cff;
+    color: white;
+}
 #register{
     margin-left: 11px;
 }
