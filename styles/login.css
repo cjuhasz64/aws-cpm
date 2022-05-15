@@ -1,0 +1,13 @@
+#wrapper-login {
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 60px;
+}
+
+#button_login{
+    width: 40%;
+}
+
+#link_passwordreset{
+    font-size: 0.8em;
+}

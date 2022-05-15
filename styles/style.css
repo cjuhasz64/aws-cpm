@@ -3,6 +3,18 @@ body {
     font-family: 'Open Sans';
     
 }
+h1{
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: block;
+}
 
 .wrapper {
     background-color: #f3f3f3;
@@ -29,8 +41,31 @@ button {
     padding-left: 40px;
     padding-right: 40px;
     border: none;
-    font-size: 15px;
-    
+    font-size: 18px;
+}
+button a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #008cff;
+    color: white;
+}
+#register{
+    margin-left: 11px;
+}
+
+.wrapper #forgotpw {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.wrapper #forgotpw a{
+    color: #08ccff;
+    font-size: 16px;
+}
+
+.heading {
+    font-family: 'Open Sans';
 }
 
 button:hover {
@@ -41,23 +76,5 @@ button:hover {
     font-family: 'Open Sans';
     font-weight: 300;
 }
-
-
-#wrapper-login {
-    margin-left: 35%;
-    margin-right: 35%;
-    padding: 60px;
-    width: 20%;
-}
-
-#heading_login {
-    margin-top: 0;
-
-}
-
-#input_password {
-    margin-bottom: 10px;
-}
-
 
 
