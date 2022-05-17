@@ -1,7 +1,6 @@
 
-#main{
-    grid-area: main;
-}
+
+
 #side {
     grid-area: sidebar;
     background-color: #a7cfff;
@@ -22,30 +21,96 @@ h1 {
 
 #wrapper-clients-overview{ 
     grid-area: a;
-    margin: 10px;
-    margin-left: 20px;
+   
+   
 }
 
 #wrapper-clients {
     grid-area: b;
-    margin: 10px;
-    margin-left: 20px;
+  
+    padding-left: 10%;
+    padding-right: 10%;
+   
 }
 
 #wrapper-client-indepth {
     grid-area: c;
-    margin: 10px;
+ 
+    
+}
+
+.main{
+    grid-area: main;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+
+    grid-template-areas:
+      "a c"
+      "b c";
+
+    display: grid;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    gap: 40px;
 }
 
 
 body {
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 1fr 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-areas:
-      "sidebar header header"
-      "sidebar a c"
-      "sidebar b c";
+      "sidebar header"
+      "sidebar main";
       
     display: grid;
     margin: 0;
+}
+
+#client-list {
+    background-color: white;
+    margin-top: 10px;
+    overflow-y: scroll; 
+    height: 330px;
+    border-radius: 5px;
+   
+}
+
+.item {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.7em;
+}
+
+#client-list  a {
+    text-decoration: none;
+    color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
