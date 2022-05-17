@@ -1,6 +1,7 @@
 
-
-var expClients = ["Cameron", "Jack", "Lachlan", "Kyle", "Zach", "Greg", "David", "Theo", "Jill", "June", "Jose"];
+// example list of names
+// reall applicaiton would be all from database of users
+var expClients = ["cameron", "jack", "lachlan", "kyle", "zach", "greg", "david", "theo", "jill", "june", "jose"];
 
 expClients.sort();
 

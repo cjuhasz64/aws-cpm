@@ -5,7 +5,7 @@ html, body{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #08ccff;
+    background-color: #008cff;
     font-family: Arial;
 }
 
@@ -113,7 +113,7 @@ section article h1{
 
 #startButton {
     border: none;
-    background-color: #08ccff;
+    background-color: #008cff;
     margin-top: 100px;
     margin-left: 45%;
     padding: 15px 32px;
