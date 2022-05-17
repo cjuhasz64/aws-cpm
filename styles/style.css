@@ -24,7 +24,7 @@ h1{
     padding: 20px;
 }
 
-input { 
+input[type=text] { 
     resize: none;
     height: 30px;
     border-radius: 5px;
